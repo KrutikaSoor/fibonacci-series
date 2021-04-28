@@ -1,0 +1,7 @@
+a = int(input("Give input number upto which series need to be calculated"))
+def fibonacci(n):
+  a,b = 0,1
+  for int in range(n):
+    yield a
+    a,b = b,a+b
+print(list(fibonacci(a)))
